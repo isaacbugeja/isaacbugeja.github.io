@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Nav links */
+a.nav-link {
+    color: #000;
+}
+
+a.nav-link:hover {
+    color: #888888
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid #888;
+    padding-bottom:5px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    
+}
+
+[data-bs-theme="dark"] a.nav-link {
+    color: #fff; /* White color for dark mode */
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+/*  Page content  */
+#welcome-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+#about-title, #projects-title, #experience-title, #contact-title {
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.work-experience, .qualifications-section, .about-section, .contact-section{
+    text-align:justify;
+    margin:5% 0;
+}
+
+.work-experience:last-of-type, .about-section:last-of-type{
+    padding-bottom:20%;
+}
+
+/*  Animations  */
+.animate-container {
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* CONTACT ICONS */
+
+#contact-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top:15%;
+}
+#contact-icons a {
+    text-decoration: none;
+    color: inherit;
+}
+#contact-icons i {
+    font-size: 2em;
+}
+
+#contact-icons a:hover{
+    color:gray;
+}
