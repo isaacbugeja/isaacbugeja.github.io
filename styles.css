@@ -21,13 +21,6 @@ a.nav-link:hover {
     padding-bottom:5px;
 }
 
-.form-check {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 10px;
-    
-}
 
 [data-bs-theme="dark"] a.nav-link {
     color: #fff; /* White color for dark mode */
@@ -35,6 +28,30 @@ a.nav-link:hover {
 
 .form-check-input {
     cursor: pointer;
+}
+
+@media(min-width:992px){
+    .navbar-nav, .nav-item, .form-check{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media(max-width: 992px){
+    #navbarNav li:last-of-type{
+        border-bottom:2px solid #888;
+        padding-bottom:5px;
+    }
+
+    .form-check {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        margin-left: auto;
+        margin-right: 10px;
+        
+    }
 }
 
 /*  Page content  */
