@@ -119,3 +119,18 @@ a.nav-link:hover {
 #contact-icons a:hover{
     color:gray;
 }
+
+
+/*  C# Coding Practice  */
+#contoso-pet-application-title{
+    padding:20px 0;
+}
+
+#c-sharp-practice-container a{
+    text-decoration: none;
+}
+
+#c-sharp-code-list{
+    list-style-type: none;
+    text-align:center;
+}
