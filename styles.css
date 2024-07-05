@@ -30,19 +30,18 @@ a.nav-link:hover {
     cursor: pointer;
 }
 
-@media(min-width:992px){
+@media(min-width:992px){    /*  Nav Bar on full screen devices  */
     .navbar-nav, .nav-item, .form-check{
         display:flex;
         justify-content: center;
         align-items: center;
     }
+    
     .container-fluid header{
         margin-top:5px;
     }
 }
-    
-}
-@media(max-width: 992px){
+@media(max-width: 992px){ /*    Collapsible Nav Bar on Mobile Devices   */
     #navbarNav li:last-of-type{
         border-bottom:2px solid #888;
         padding-bottom:5px;
@@ -53,7 +52,7 @@ a.nav-link:hover {
         display:flex;
         justify-content: flex-end;
         align-items: center;
-    }    
+    }
 }
 
 /*  Page content  */
