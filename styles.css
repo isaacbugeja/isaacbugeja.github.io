@@ -36,6 +36,10 @@ a.nav-link:hover {
         justify-content: center;
         align-items: center;
     }
+    .container-fluid header{
+        margin-top:5px;
+    }
+}
     
 }
 @media(max-width: 992px){
