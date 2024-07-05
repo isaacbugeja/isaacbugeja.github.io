@@ -64,12 +64,12 @@ a.nav-link:hover {
     margin-top: 40vh;
 }
 
-#about-title, #projects-title, #experience-title, #contact-title {
+#about-title, #projects-title, #experience-title, #contact-title, #csharp-title {
     margin-top: 10%;
     margin-bottom: 2%;
 }
 
-.work-experience, .qualifications-section, .about-section, .contact-section{
+.work-experience, .qualifications-section, .about-section, .contact-section,.csharp-section{
     text-align:justify;
     margin:5% 0;
 }
@@ -126,7 +126,7 @@ a.nav-link:hover {
     padding:20px 0;
 }
 
-#c-sharp-practice-container a{
+#csharp-section a{
     text-decoration: none;
 }
 
