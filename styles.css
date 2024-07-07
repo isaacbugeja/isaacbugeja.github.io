@@ -134,3 +134,13 @@ a.nav-link:hover {
     list-style-type: none;
     text-align:center;
 }
+
+[data-bs-theme="dark"] #c-sharp-code a {
+    color: #fff; /* White color link for dark mode */
+    text-decoration: underline;
+}
+
+#c-sharp-code a {
+    color: black; /* Black color link for dark mode */
+    text-decoration: underline;
+}
