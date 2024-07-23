@@ -132,7 +132,10 @@ a.nav-link:hover {
 
 #c-sharp-code-list{
     list-style-type: none;
-    line-height:1.5;
+}
+
+#c-sharp-code-list li{
+    line-height: 1.5;
 }
 
 [data-bs-theme="dark"] #c-sharp-code a {
