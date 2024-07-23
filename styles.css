@@ -132,7 +132,7 @@ a.nav-link:hover {
 
 #c-sharp-code-list{
     list-style-type: none;
-    text-align:center;
+    line-height:1.5;
 }
 
 [data-bs-theme="dark"] #c-sharp-code a {
